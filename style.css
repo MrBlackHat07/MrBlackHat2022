@@ -1,0 +1,110 @@
+*{
+  padding:0;
+  margin:0;
+  height:100;
+}
+
+body{
+  height:100%;
+  width:100%;
+  background:url("background_img1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.setbg{
+background:url("background_img.jp");
+}
+h1{
+  color:white;
+  animation: animation_name 3s infinite;
+}
+@-webkit-keyframes animation_name
+{
+from{border: 5px inset #000000cc;}
+to{border: 5px outset #ff25f9;}
+}
+@-webkit animation_name
+{
+from{box-shadow: 1px 1px 1px #888888;}
+to{box-shadow: 5px 5px 5px #888888;}
+
+}
+.cl1{
+  color:#4ddbff;
+}
+.cl1a{
+  color:#ff25f9;
+}
+.cl2{
+  color:#fbff00ff;
+}
+.cl3{
+  color:#01ff14ff;
+}
+up{
+ text-transform: uppercase;
+ font-size:20PX;
+}
+b{
+  color: white;
+}
+p{
+  color:white;
+}
+h2{
+  color:#00ccffff;
+}
+h3{
+  text-size:80px;
+  text-align:center;
+}
+input{
+  color:white;
+  background-color:red;
+  border-radius:3px;
+  border-color:white;
+}
+ input:hover{
+  color: black;
+}
+.container{
+  text-align:center;
+  text-decoration:none;
+  overflow:hidden;
+}
+.l1{
+  text-decoration:none;
+  color:rgb(129,255,147);
+}
+
+.c1{
+  border:#81e6ff 5px inset ;
+  border-radius: 15px;
+  padding:10px 0 0PX 0;
+  text-align:center;
+}
+.l1:hover{
+  color:#00ccffff;
+}
+.page-footer{
+  border: #00f223 6px inset;
+  padding:10px;
+    animation: animation_name 5s infinite;
+}
+@-webkit-keyframes animation_name
+{
+from{border: 5px inset #4ddbff;}
+to{border: 5px outset #ff25f9;}
+}
+@-webkit animation_name
+{
+from{box-shadow: 1px 1px 1px #888888;}
+to{box-shadow: 5px 5px 5px #888888;}
+ 
+}
+.btn{
+  text-align: center;
+  float: center;
+  
+}
